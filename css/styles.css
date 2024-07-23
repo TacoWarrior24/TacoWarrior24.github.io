@@ -21,6 +21,10 @@ body {
     margin:20px auto
 }
 
+.gameboy p {
+    padding: 5px;
+}
+
 .screen {
     position: relative;
     width: 80%;
@@ -32,14 +36,15 @@ body {
     padding: 10px;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 36px;
+    font-size: 3em;
     color: #306230;
     text-shadow: 2px 2px 2px #5D871F;
 }
 
-h1{
-color:white;
-padding-left:100px;
+h3 {
+    color: white;
+    padding-left: 100px;
+    font-size: 2em;
 }
 
 .aboutMe {
