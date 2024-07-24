@@ -14,15 +14,15 @@ body {
     width: 50%;
     height: 90%;
     background-color: #6B6B6B;
-    border-radius: 15px 15px 75px 15px;
+    border-radius: 1em 1em 4em 1em;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0);
+    box-shadow: 0 0 .5em rgba(0, 0, 0);
     text-align:center;
-    margin:20px auto
+    margin:1em auto;
 }
 
 .gameboy p {
-    padding: 5px;
+    padding: .25em;
 }
 
 .screen {
@@ -32,8 +32,8 @@ body {
     left: 10%;
     background-image: radial-gradient(#9bbc0f, #9bbc0f, #9bbc0f, #8bac0f, #306230);
     border: 2px solid #000000;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: .2em;
+    padding: .1em;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 3em;
@@ -43,7 +43,7 @@ body {
 
 h3 {
     color: white;
-    padding-left: 100px;
+    padding-left: 3rem;
     font-size: 2em;
 }
 
@@ -54,13 +54,13 @@ h3 {
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 100px;
+    padding: 3em;
     font-size: 150%;
 }
 .aboutMe img {
     width: calc(33.33% - 40px);
     margin-right: 50px;
-    border-radius:100px
+    border-radius: 5em
 }
 .aboutMe p {
     width: calc(66.66% - 40px);
@@ -73,11 +73,11 @@ h3 {
     transition: opacity 3.0s ease-in-out;
     background-color: white;
     color: #000;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     display: grid;
     align-items: center;
-    padding: 50px;
-    font-size: 18px;
+    padding: 4em;
+    font-size: 125%;
 }
 
 .education {
@@ -85,7 +85,7 @@ h3 {
     transition: opacity 3.0s ease-in-out;
     background-color: navy;
     color: gold;
-    padding: 50px;
+    padding: 4em;
 }
 
 .projects {
@@ -93,15 +93,15 @@ h3 {
     transition: opacity 3.0s ease-in-out;
     background-color: #000;
     color: #fff;
-    padding: 50px;
+    padding: 0px 4em 4em 4em;
 }
 
 .projects h2{
-    padding:80px 0px 0px 0px 
+    padding:2em 0px 0px 0px; 
 }
 
 .extras {
     background-color: #000;
     color: #fff;
-    padding: 50px;
+    padding: 4em;
 }
