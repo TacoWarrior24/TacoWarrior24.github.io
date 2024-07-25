@@ -24,52 +24,64 @@
 
     <!-- About Me section with image and text.(Animated) -->
     <h3>About Me</h3>
-    <div id ="fade-in-out-aboutme" class="aboutMe">
-        <img src="css/images/face.png" alt="Image of Jacob Long">
-        <p>
-            I am a recently graduated student of Southern New Hampshire University. I achieved my bachelor’s in
-            computer science with a focus in software engineering. I am looking for job experience in my field and
-            eventually want to find a permanent career. I am a dedicated worker who is eager to face new
-            challenges. I can offer a variety of skills to your company including problem solving, excellent
-            communication skills, attention to detail, and a strong drive to learn.
-        </p>
+    <div id="fade-in-out-aboutme" class="aboutMe">
+        <div id="topDirection" class="directionPad"></div>
+        <div id="centerContent">
+            <img src="css/images/face.png" alt="Image of Jacob Long">
+            <p>
+                I am a recently graduated student of Southern New Hampshire University. I achieved my bachelor’s in
+                computer science with a focus in software engineering. I am looking for job experience in my field and
+                eventually want to find a permanent career. I am a dedicated worker who is eager to face new
+                challenges. I can offer a variety of skills to your company including problem solving, excellent
+                communication skills, attention to detail, and a strong drive to learn.
+            </p>
+        </div>
+        <div id="bottomDirection" class="directionPad"></div>
     </div>
 
     <!-- List of all of the places I've worked technical/non-technical' -->
     <h3>Work History</h3>
-    <div id ="fade-in-out-workhistory" class="workHistory">
-        <h2>JUNIOR WEB APPLICATION DEVELOPER ADVANCED METRICS</h2>
-        <h4>Mar 2022 - Present</h4>
-        <p>
-            I am currently working at Advanced Metrics, a software development company that builds
-            software for human services. I work in a hybrid environment with colleagues from around the
-            world to develop and maintain Advanced Metrics products. Daily tasks might include developing
-            new features, managing databases, and fixing bugs.
-        </p>
-        <img src="https://th.bing.com/th?id=OLC.SaR2BrOHvE/2JQ480x360&rs=1&pid=ImgDetMain" alt="Logo Of Job 1" width="100" height="100">
-
-        <h2>IT SUPPORT CENTER INTERN FULTON BANK</h2>
-        <h4>Aug 2021 - Feb 2022</h4>
-        <p>
-            I worked as an intern with Fulton Bank’s support center. At Fulton Bank, I was tasked with
-            assisting Fulton Bank’s employees with their technical issues. This includes password resets, file
-            accessibility management, and assorted remote troubleshooting. I conduct these tasks via Email
-            or Phone call in a professional manner.
-        </p>
-        <img src="https://bpprodstorage.blob.core.windows.net/bpprodcontainer/325842/images/c3f9ec35-f64a-48d9-bca5-d676090ca954FB_Stacked_250x250.jpg" alt="Logo Of Jobs 2" width="100" height="100">
+    <div id="fade-in-out-workhistory" class="workHistory">
+        <div class="job" id="advancedMetrics">
+            <h2>JUNIOR WEB APPLICATION DEVELOPER ADVANCED METRICS</h2>
+            <h4>Mar 2022 - Present</h4>
+            <p>
+                I am currently working at Advanced Metrics, a software development company that builds
+                software for human services. I work in a hybrid environment with colleagues from around the
+                world to develop and maintain Advanced Metrics products. Daily tasks might include developing
+                new features, managing databases, and fixing bugs.
+            </p>
+            <img src="https://th.bing.com/th?id=OLC.SaR2BrOHvE/2JQ480x360&rs=1&pid=ImgDetMain" alt="Logo Of Job 1" width="100" height="100">
+        </div>
+        <div class="job" id="fultonBank">
+            <h2>IT SUPPORT CENTER INTERN FULTON BANK</h2>
+            <h4>Aug 2021 - Feb 2022</h4>
+            <p>
+                I worked as an intern with Fulton Bank’s support center. At Fulton Bank, I was tasked with
+                assisting Fulton Bank’s employees with their technical issues. This includes password resets, file
+                accessibility management, and assorted remote troubleshooting. I conduct these tasks via Email
+                or Phone call in a professional manner.
+            </p>
+            <img src="https://bpprodstorage.blob.core.windows.net/bpprodcontainer/325842/images/c3f9ec35-f64a-48d9-bca5-d676090ca954FB_Stacked_250x250.jpg" alt="Logo Of Jobs 2" width="100" height="100">
+        </div>
     </div>
-
 
     <!--Education Details-->
     <h3>Education</h3>
-    <div id ="fade-in-out-education" class="education">
-        <h2>Bachelors Degree in Computer Science</h2>
-        <img src="css/images/diplomer.PNG" alt="SNHU" width="400">
-        <p>
-        Started: Jul-2019 Graduated: Nov 2023<br />
-        Achived: Magna Cum Laude<br />
-        GPA = 3.76
-        </p>
+    <div id="fade-in-out-education" class="education">
+        <div id="degree" class="startSelect">
+            <h2>Bachelors Degree in Computer Science</h2>
+            <!--<img src="css/images/diplomer.PNG" alt="SNHU" width="400"> -->
+            <p>
+                Started: Jul-2019 Graduated: Nov 2023<br />
+                Achived: Magna Cum Laude<br />
+                GPA = 3.76
+            </p>
+        </div>
+        <div id="certs" class="startSelect">
+            <h2>Certifications</h2>
+            <p>Working on Azure Fundementals</p>
+        </div>
     </div>
 
 
@@ -118,7 +130,6 @@
         <p>
             • I developed this website from scratch! Check out the project out on Github for a behind the scenes look of this page.<br />
         </p>
-
     </div>
 
 

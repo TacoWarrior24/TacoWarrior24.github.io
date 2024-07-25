@@ -9,9 +9,8 @@ body {
 }
 
 .gameboy {
-    position:sticky;
     top:0;
-    width: 50%;
+    width: 80%;
     height: 90%;
     background-color: #6B6B6B;
     border-radius: 1em 1em 4em 1em;
@@ -20,11 +19,10 @@ body {
     text-align:center;
     margin:1em auto;
 }
-
 .gameboy p {
-    padding: .25em;
+    margin: auto;
+    padding: 1em;
 }
-
 .screen {
     position: relative;
     width: 80%;
@@ -50,42 +48,79 @@ h3 {
 .aboutMe {
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    align-items: center;
     padding: 3em;
     font-size: 150%;
+}
+#centerContent {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 0 0 .5em rgba(0, 0, 0);
 }
 .aboutMe img {
     width: calc(33.33% - 40px);
     margin-right: 50px;
-    border-radius: 5em
+    border-radius: 5em;
+    padding: 2em;
 }
 .aboutMe p {
     width: calc(66.66% - 40px);
     margin: 0;
+    color: #fff;
+    padding: 1em;
 }
-
+.directionPad {
+    background-color: black;
+    width: 50%;
+    height: 4em;
+    margin: auto;
+    box-shadow: 0 0 .5em rgba(0, 0, 0);
+}
+#topDirection {
+    border-radius: 1em 1em 0em 0em;
+}
+#bottomDirection {
+    border-radius: 0em 0em 1em 1em;
+}
 
 .workHistory {
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
-    background-color: white;
-    color: #000;
-    margin: 0px;
+    color: black;
     display: grid;
     align-items: center;
-    padding: 4em;
+    padding: 2em;
     font-size: 125%;
+}
+.job {
+    background-color: #BE0A6E;
+    padding: 1em;
+    margin: .5em;
+    border-radius: 2em;
+    box-shadow: 0 0 .5em rgba(0, 0, 0)
+}
+#advancedMetrics{
+    margin-left: 30%;
+}
+#fultonBank {
+    margin-right: 30%;
 }
 
 .education {
+    display: flex;
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
-    background-color: navy;
     color: gold;
-    padding: 4em;
+    padding: 1em;
+}
+.startSelect {
+    background-color: #6B6B6B;
+    width: 50%;
+    padding: 1em;
+    margin: .5em;
+    border-radius: 2em;
+    box-shadow: 0 0 .5em rgba(0, 0, 0)
 }
 
 .projects {
