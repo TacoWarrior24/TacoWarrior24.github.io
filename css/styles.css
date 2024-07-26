@@ -3,14 +3,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background-color: #8B8B8B;
+    background-color: black;
     margin: 0;
     font-family: 'Roboto';
 }
 
+.system {
+    background-color: #8B8B8B;
+    box-shadow: 10px 10px #6B6B6B;
+    padding: 1em;
+    border-radius: 2em 2em 4em 2em;
+    margin: 1em;
+}
+
 .gameboy {
     top:0;
-    width: 80%;
+    width: 90%;
     height: 90%;
     background-color: #6B6B6B;
     border-radius: 1em 1em 4em 1em;
@@ -43,6 +51,7 @@ h3 {
     color: white;
     padding-left: 3rem;
     font-size: 2em;
+    margin: 0px;
 }
 
 .aboutMe {
