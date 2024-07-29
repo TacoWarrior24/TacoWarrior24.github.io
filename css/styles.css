@@ -1,10 +1,10 @@
 
 body {
+    max-width: 1000px;
+    margin: auto; /* To center horizontally */
     justify-content: center;
     align-items: center;
-    height: 80vh;
     background-color: black;
-    margin: 0;
     font-family: 'Roboto';
 }
 
@@ -135,13 +135,30 @@ h3 {
 .projects {
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
-    background-color: #000;
     color: #fff;
-    padding: 0px 4em 4em 4em;
 }
 
 .projects h2{
-    padding:2em 0px 0px 0px; 
+    text-align:center;
+    padding:1em;
+    border:solid #6B6B6B;
+    border-radius:4em;
+}
+
+.gamecartridge {
+    background-color: #8B8B8B;
+    padding: 1em 2em 2em 2em;
+    margin: 2em;
+    box-shadow: 10px 10px #6B6B6B;
+}
+
+.triangle {
+    margin:auto;
+    width: 0;
+    height: 0;
+    border-left: 4em solid transparent;
+    border-right: 4em solid transparent;
+    border-top: 2em solid #6B6B6B;
 }
 
 .extras {
