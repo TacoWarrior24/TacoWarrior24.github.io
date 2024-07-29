@@ -4,7 +4,7 @@ This is my web portfolio that displays all of my technical work! Its currently a
 https://tacowarrior24.github.io/
 
 ## Design
-I currently have a Gameboy themed design. Throughout my life I've been passionate about video games. This passion has lead me to the connections I have today and the career I currently have.
+I currently have a Gameboy themed design. Throughout my life I've been passionate about video games. This passion has lead me to the connections I have today and the career I currently have. The bulk of my website is supposed to represent the Original Gameboy that released in 1989. You can see the iconic green screen and the appropriatte buttons encapsolating my portfolio information. If you scroll all the way to the bottom of the portfolio you will find the game cartridges that showcase some of the projects I've worked on in the past.
 
 ## Deployment
 This is my first public website. I initially thought I could host my website from my Raspberry Pi but after further investigation I found this method to be laborous and left my home network vulnerable. I still live at home with my parents and did not want to put any of them at risk. 
