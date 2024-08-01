@@ -12,3 +12,7 @@ This is my first public website. I initially thought I could host my website fro
 I then decided to host my static website from Microsoft Azure. Azure was really nice and was had a free trial but my trial ran out.
 
 Now I'm trying GitHub Pages. This host is free. In addition to that when I push a change to main the changes appear right away! No more reuploading files to azure to get them into their environment. I should have used GitHub Pages from the start!
+
+## TODO
+* Add more content by creating more projects/learning more skills
+* Create cool animations for flipping through game cratridges
