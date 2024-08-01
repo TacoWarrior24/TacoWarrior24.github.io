@@ -62,23 +62,38 @@ h3 {
 }
 #centerContent {
     display: flex;
+    flex-wrap: wrap;
     background-color: black;
     align-items: center;
     border-radius: 1em;
     box-shadow: 0 0 .5em rgba(0, 0, 0);
 }
 .aboutMe img {
-    width: calc(33.33% - 40px);
-    margin-right: 50px;
     border-radius: 5em;
-    padding: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
 }
 .aboutMe p {
-    width: calc(66.66% - 40px);
+    font-size:1.5rem;
     margin: 0;
     color: #fff;
-    padding: 1em;
+    padding: 2em;
+    box-sizing: border-box;
+    flex: 1 1 66.67%;
 }
+
+@media (max-width: 800px) {
+    .aboutMe img, .aboutMe p {
+        flex: 1 1 100%;
+        margin:auto
+    }
+    .aboutMe img {
+        padding: 0px;
+    }
+}
+
 .directionPad {
     background-color: black;
     width: 50%;
