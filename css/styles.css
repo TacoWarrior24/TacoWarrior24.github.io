@@ -1,13 +1,14 @@
-
+/*Black background and center main content*/
 body {
-    max-width: 1000px;
-    margin: auto; /* To center horizontally */
+    max-width: 1200px;
+    margin: auto;
     justify-content: center;
     align-items: center;
     background-color: black;
     font-family: 'Roboto';
 }
 
+/*Main Title Card: TODO - Make the main screen interactable*/
 .system {
     background-color: #8B8B8B;
     box-shadow: 10px 10px #6B6B6B;
@@ -15,7 +16,6 @@ body {
     border-radius: 2em 2em 4em 2em;
     margin: 1em;
 }
-
 .gameboy {
     top:0;
     width: 90%;
@@ -47,6 +47,7 @@ body {
     text-shadow: 2px 2px 2px #5D871F;
 }
 
+/*Headers dividing content*/
 h3 {
     color: white;
     padding-left: 3rem;
@@ -54,6 +55,7 @@ h3 {
     margin: 0px;
 }
 
+/*About me directional pad*/
 .aboutMe {
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
@@ -83,17 +85,6 @@ h3 {
     box-sizing: border-box;
     flex: 1 1 66.67%;
 }
-
-@media (max-width: 800px) {
-    .aboutMe img, .aboutMe p {
-        flex: 1 1 100%;
-        margin:auto
-    }
-    .aboutMe img {
-        padding: 0px;
-    }
-}
-
 .directionPad {
     background-color: black;
     width: 50%;
@@ -107,7 +98,17 @@ h3 {
 #bottomDirection {
     border-radius: 0em 0em 1em 1em;
 }
+@media (max-width: 800px) { /*When screen gets too small make text in this box vertical*/
+    .aboutMe img, .aboutMe p {
+        flex: 1 1 100%;
+        margin:auto
+    }
+    .aboutMe img {
+        padding: 0px;
+    }
+}
 
+/*Work History A/B Buttons: TODO - Try to put a fadded "A" + "B" in the buttons*/
 .workHistory {
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
@@ -131,6 +132,7 @@ h3 {
     margin-right: 30%;
 }
 
+/*Education and Certificates start/select */
 .education {
     display: flex;
     opacity: 0.1;
@@ -147,26 +149,24 @@ h3 {
     box-shadow: 0 0 .5em rgba(0, 0, 0)
 }
 
+/*Projects and Work: TODO - Figure out how to animate these cards so you can flip through them like leafing through files*/
 .projects {
     opacity: 0.1;
     transition: opacity 3.0s ease-in-out;
     color: #fff;
 }
-
 .projects h2{
     text-align:center;
     padding:1em;
     border:solid #6B6B6B;
     border-radius:4em;
 }
-
 .gamecartridge {
     background-color: #8B8B8B;
     padding: 1em 2em 2em 2em;
     margin: 2em;
     box-shadow: 10px 10px #6B6B6B;
 }
-
 .triangle {
     margin:auto;
     width: 0;
@@ -176,6 +176,7 @@ h3 {
     border-top: 2em solid #6B6B6B;
 }
 
+/*Extra Links*/
 .extras {
     background-color: #000;
     color: #fff;
