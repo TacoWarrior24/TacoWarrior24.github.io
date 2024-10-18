@@ -47,8 +47,14 @@ body {
     text-shadow: 2px 2px 2px #5D871F;
 }
 
+#subtitle{
+    color: #306230;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
 /*Headers dividing content*/
-h3 {
+h2 {
     color: white;
     padding-left: 3rem;
     font-size: 2em;
@@ -155,7 +161,7 @@ h3 {
     transition: opacity 3.0s ease-in-out;
     color: #fff;
 }
-.projects h2{
+.projects h3{
     text-align:center;
     padding:1em;
     border:solid #6B6B6B;
