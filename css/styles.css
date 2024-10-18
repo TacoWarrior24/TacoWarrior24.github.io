@@ -14,7 +14,7 @@ body {
     box-shadow: 10px 10px #6B6B6B;
     padding: 1em;
     border-radius: 2em 2em 4em 2em;
-    margin: 1em;
+    margin: 1em 1em 3em 1em;
 }
 .gameboy {
     top:0;
@@ -51,6 +51,7 @@ body {
     color: #306230;
     font-size: 1.2em;
     padding-bottom: 1em;
+    padding-left: 0;
 }
 
 /*Headers dividing content*/
