@@ -1,11 +1,4 @@
 
-h2 {
-    color: white;
-    padding-left: 3rem;
-    font-size: 2em;
-    margin: 0px;
-}
-
 /*Black background and center main content*/
 body {
     max-width: 1200px;
@@ -63,6 +56,13 @@ body {
 
 #nontendo{
     font-size: .75rem;
+}
+
+h2 {
+    color: white;
+    padding-left: 3rem;
+    font-size: 2em;
+    margin: 0px;
 }
 
 /*About me directional pad*/
