@@ -1,3 +1,27 @@
+/* h1{
+   font-size: 1em 
+} */
+
+/*Font sizes*/
+h2 {
+    color: white;
+    padding-left: 3rem;
+    font-size: 2em;
+    margin: 0px;
+}
+
+h3{
+    font-size: 2.5vw;
+}
+
+h4{
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
 /*Black background and center main content*/
 body {
     max-width: 1200px;
@@ -27,10 +51,7 @@ body {
     text-align:center;
     margin:1em auto;
 }
-.gameboy p {
-    margin: auto;
-    padding: 1em;
-}
+
 .screen {
     position: relative;
     width: 80%;
@@ -45,6 +66,7 @@ body {
     font-size: 3em;
     color: #306230;
     text-shadow: 2px 2px 2px #5D871F;
+    /*Overflow: scroll; noting this css property just in case I want to put the about section in the screen*/
 }
 
 #subtitle{
@@ -54,12 +76,12 @@ body {
     padding-left: 0;
 }
 
-/*Headers dividing content*/
-h2 {
-    color: white;
-    padding-left: 3rem;
-    font-size: 2em;
-    margin: 0px;
+#nontendo{
+    font-size: .75rem;
+}
+
+#links{
+    font-size: 2vmin;
 }
 
 /*About me directional pad*/
@@ -85,7 +107,6 @@ h2 {
     max-width: 33.33%;
 }
 .aboutMe p {
-    font-size:1.5rem;
     margin: 0;
     color: #fff;
     padding: 2em;
